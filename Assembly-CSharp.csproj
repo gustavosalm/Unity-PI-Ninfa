@@ -63,6 +63,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Script\Lenhador1Behaviour.cs" />
+    <Compile Include="Assets\Script\SpawnControl.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/aluno.NAVERECIFE/Downloads/PI - Ninfa/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>

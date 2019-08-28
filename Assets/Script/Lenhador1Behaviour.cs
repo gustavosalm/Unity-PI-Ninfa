@@ -9,6 +9,7 @@ public class Lenhador1Behaviour : MonoBehaviour
     public float dano;
     private bool andar;
     private string nome;
+    private bool attacking;
     void Start()
     {
         andar = true;
@@ -16,12 +17,13 @@ public class Lenhador1Behaviour : MonoBehaviour
 
     void Update()
     {
-        print(nome);
-        if(GameObject.Find(nome) == null)
+        //print(nome);
+        if (GameObject.Find(nome) == null && attacking)
         {
             print("matou");
             CancelInvoke("Atacar");
             andar = true;
+            attacking = false;
         }
         if (andar)
         {
@@ -31,14 +33,15 @@ public class Lenhador1Behaviour : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         nome = collision.name;
-        InvokeRepeating("Atacar", Time.time, 0.5f);
+        InvokeRepeating("Atacar", 0, 0.5f);
         andar = false;
+        attacking = true;
     }
     private void OnTriggerExit2D(Collider2D collision)
     {
-        print("matou");
-        CancelInvoke("Atacar");
-        andar = true;
+        //print("matou");
+        //CancelInvoke("Atacar");
+        //andar = true;
     }
     void Atacar()
     {
