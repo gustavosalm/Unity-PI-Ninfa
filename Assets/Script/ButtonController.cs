@@ -7,6 +7,8 @@ public class ButtonController : MonoBehaviour
     public GameObject triangulo;
     public GameObject hexagono;
     private Vector2 posicao;
+    bool spawnTri;
+    bool spawnHex;
     void Start()
     {
         
@@ -14,22 +16,32 @@ public class ButtonController : MonoBehaviour
 
     void Update()
     {
-        
+        if(spawnTri)
+        {
+            if (Input.GetMouseButtonDown(0))
+            {
+                posicao = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+                Instantiate(triangulo, posicao, Quaternion.identity);
+                spawnTri = false;
+            }
+        }
+        if (spawnHex)
+        {
+            if (Input.GetMouseButtonDown(0))
+            {
+                posicao = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+                Instantiate(hexagono, posicao, Quaternion.identity);
+                spawnHex = false;
+            }
+        }
+
     }
     public void SpawnarTriangulo()
     {
-        if (Input.GetMouseButtonDown(0))
-        {
-            posicao = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-            Instantiate(triangulo, posicao, Quaternion.identity);
-        }
+        spawnTri = true;        
     }
     public void SpawnarHexagono()
     {
-        if (Input.GetMouseButtonDown(0))
-        {
-            posicao = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-            Instantiate(hexagono, posicao, Quaternion.identity);
-        }
+        spawnHex = true; 
     }
 }
