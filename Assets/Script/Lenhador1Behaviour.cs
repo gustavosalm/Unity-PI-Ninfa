@@ -10,9 +10,11 @@ public class Lenhador1Behaviour : MonoBehaviour
     private bool andar;
     private string nome;
     private bool attacking;
+    private GameObject tree;
     void Start()
     {
         andar = true;
+        tree = GameObject.FindWithTag("arvore");
     }
 
     void Update()
@@ -46,5 +48,6 @@ public class Lenhador1Behaviour : MonoBehaviour
     void Atacar()
     {
         print(dano);
+        tree.GetComponent<arvoreBehaviour>().TomarDano(dano);
     }
 }
