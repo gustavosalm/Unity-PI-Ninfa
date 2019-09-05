@@ -30,12 +30,20 @@ public class Lenhador1Behaviour : MonoBehaviour
         if (andar)
         {
             transform.Translate(Vector3.left * speed * Time.deltaTime);
-        }        
+        }
+        if(vida <= 0)
+        {
+            Destroy(this.gameObject);
+        }
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
         nome = collision.name;
         InvokeRepeating("Atacar", 0, 0.5f);
+        if (collision.tag == "arvore")
+        {
+            tree.GetComponent<arvoreBehaviour>().TomarDano(dano);
+        }
         andar = false;
         attacking = true;
     }
@@ -48,6 +56,10 @@ public class Lenhador1Behaviour : MonoBehaviour
     void Atacar()
     {
         print(dano);
-        tree.GetComponent<arvoreBehaviour>().TomarDano(dano);
+                
+    }
+    public void TomarDanoL(float dano)
+    {
+        vida -= dano;
     }
 }

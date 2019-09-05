@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - arvore
+  - lenhador
   layers:
   - Default
   - TransparentFX
