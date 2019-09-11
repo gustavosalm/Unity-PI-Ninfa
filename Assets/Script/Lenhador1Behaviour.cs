@@ -8,9 +8,10 @@ public class Lenhador1Behaviour : MonoBehaviour
     public float vida;
     public float dano;
     private bool andar;
-    private string nome;
+    //private string nome;
     private bool attacking;
     private GameObject tree;
+    private List<GameObject> espera = new List<GameObject>();
     void Start()
     {
         andar = true;
@@ -19,8 +20,12 @@ public class Lenhador1Behaviour : MonoBehaviour
 
     void Update()
     {
+        if(espera.Count > 0 && espera[0] == null)
+        {
+            espera.RemoveAt(0);
+        }
         //print(nome);
-        if (GameObject.Find(nome) == null && attacking)
+        if (espera.Count == 0 && attacking)
         {
             print("matou");
             CancelInvoke("Atacar");
@@ -30,14 +35,26 @@ public class Lenhador1Behaviour : MonoBehaviour
         if (andar)
         {
             transform.Translate(Vector3.left * speed * Time.deltaTime);
-        }        
+        }
+        if (vida <= 0)
+        {
+            Destroy(this.gameObject);
+        }
     }
     private void OnTriggerEnter2D(Collider2D collision)
-    {
-        nome = collision.name;
-        InvokeRepeating("Atacar", 0, 0.5f);
-        andar = false;
-        attacking = true;
+    {               
+        if(collision.tag == "planta" || collision.tag == "arvore")
+        {
+            espera.Add(collision.gameObject);
+            InvokeRepeating("Atacar", 0, 0.5f);
+            //nome = collision.name;
+            andar = false;
+            attacking = true;
+        }        
+        //if (collision.tag == "arvore")
+        //{
+            //tree.GetComponent<arvoreBehaviour>().TomarDano(dano);
+        //}        
     }
     private void OnTriggerExit2D(Collider2D collision)
     {
@@ -47,7 +64,28 @@ public class Lenhador1Behaviour : MonoBehaviour
     }
     void Atacar()
     {
+
         print(dano);
-        tree.GetComponent<arvoreBehaviour>().TomarDano(dano);
+        if(espera.Count > 0)
+        {
+            switch(espera[0].tag)
+            {
+                case "planta":
+                    espera[0].GetComponent<PlantaBehavior>().TomarDanoP(dano);
+                    break;
+                case "arvore":
+                    tree.GetComponent<arvoreBehaviour>().TomarDano(dano);
+                    break;
+            }
+        }
+        else
+        {
+            StopCoroutine("Atacar");
+        }
+        //tree.GetComponent<arvoreBehaviour>().TomarDano(dano);
+    }
+    public void TomarDanoL(float dano)
+    {
+        vida -= dano;
     }
 }

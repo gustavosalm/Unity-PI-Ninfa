@@ -95,8 +95,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
-  vida: 0
-  dano: 10
+  vida: 10
+  dano: 3
 --- !u!70 &1957724412824423994
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
