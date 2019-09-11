@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 1957724412824423994}
   m_Layer: 0
   m_Name: Lenhador1
-  m_TagString: lenhador
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28,7 +28,7 @@ Transform:
   m_GameObject: {fileID: 1158985499996338259}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 2.976, y: 1.321, z: -2.4140625}
-  m_LocalScale: {x: 0.448, y: 0.963, z: 1}
+  m_LocalScale: {x: 0.32333055, y: 0.6950163, z: 0.72172}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -72,7 +72,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 3e00bd1ce409dcf42816d13404abae7b, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.1780883, g: 0.3449097, b: 0.4339623, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -94,9 +94,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f9caea2d9f5dd794f87c8eece21b3034, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 2
-  vida: 20
-  dano: 10
+  speed: 5
+  vida: 10
+  dano: 3
 --- !u!70 &1957724412824423994
 CapsuleCollider2D:
   m_ObjectHideFlags: 0

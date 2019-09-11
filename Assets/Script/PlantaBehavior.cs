@@ -25,7 +25,11 @@ public class PlantaBehavior : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (GameObject.Find(nome) == null && attacking)
+        if(espera.Count > 0 && espera[0] == null)
+        {
+            espera.RemoveAt(0);
+        }
+        if (espera.Count == 0 && attacking)
         {
             print("matou");
             //CancelInvoke("Atacar");
@@ -36,34 +40,46 @@ public class PlantaBehavior : MonoBehaviour
         {
             transform.Translate(Vector3.right * speed * Time.deltaTime);
         }
+        if (vida <= 0)
+        {
+            Destroy(this.gameObject);
+        }
 
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        nome = collision.name;
-        //lenhador = collision.gameObject;
-        espera.Add(collision.gameObject);
-        andar = false;
-        attacking = true;
+        if(collision.tag != "planta")
+        {
+            nome = collision.name;
+            //lenhador = collision.gameObject;
+            espera.Add(collision.gameObject);
+            andar = false;
+            attacking = true;
+        }
+        
     }
     void Atacar()
     {
         print(dano);
         if(espera.Count > 0)
         {
-            if(espera[0] == null)
-            {
-                espera.RemoveAt(0);
-            }
-            else
-            {
+            //if(espera[0] == null)
+            //{
+            //    espera.RemoveAt(0);
+            //}
+            //else
+            //{
                 espera[0].GetComponent<Lenhador1Behaviour>().TomarDanoL(dano);
-            }
+            //}
         }
         else
         {
             andar = true;
         }
               
+    }
+    public void TomarDanoP(float dano)
+    {
+        vida -= dano;
     }
 }
