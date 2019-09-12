@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlantaBehavior : MonoBehaviour
 {
@@ -12,10 +13,14 @@ public class PlantaBehavior : MonoBehaviour
     private bool attacking;
     private GameObject lenhador;
 
+    public Image barraP;
+    public float vidaMax;
+
     [SerializeField] private List<GameObject> espera;
     // Start is called before the first frame update
     void Start()
     {
+        Image barraP = gameObject.GetComponent(typeof(Image)) as Image;
         andar = true;
         espera = new List<GameObject>();
         InvokeRepeating("Atacar", 0, 0.5f);
@@ -40,6 +45,9 @@ public class PlantaBehavior : MonoBehaviour
         {
             transform.Translate(Vector3.right * speed * Time.deltaTime);
         }
+
+        barraP.fillAmount = vida / vidaMax;
+
         if (vida <= 0)
         {
             Destroy(this.gameObject);
@@ -80,6 +88,6 @@ public class PlantaBehavior : MonoBehaviour
     }
     public void TomarDanoP(float dano)
     {
-        vida -= dano;
+        vida -= dano;        
     }
 }

@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -7,7 +8,7 @@ public class arvoreBehaviour : MonoBehaviour
 {
     public float vida;
     private float vidaMax;
-    public Image barra;
+    public Image barraA;
     // Start is called before the first frame update
     void Start()
     {        
@@ -18,7 +19,7 @@ public class arvoreBehaviour : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        barra.fillAmount = vida / vidaMax;
+        barraA.fillAmount = vida / vidaMax;
     }
     public void TomarDano(float dano)
     {
