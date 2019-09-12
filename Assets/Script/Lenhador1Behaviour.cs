@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Lenhador1Behaviour : MonoBehaviour
 {
@@ -12,8 +13,12 @@ public class Lenhador1Behaviour : MonoBehaviour
     private bool attacking;
     private GameObject tree;
     private List<GameObject> espera = new List<GameObject>();
+
+    public Image barraL;
+    public float vidaMax;
     void Start()
     {
+        Image barraP = gameObject.GetComponent(typeof(Image)) as Image;
         andar = true;
         tree = GameObject.FindWithTag("arvore");
     }
@@ -36,6 +41,9 @@ public class Lenhador1Behaviour : MonoBehaviour
         {
             transform.Translate(Vector3.left * speed * Time.deltaTime);
         }
+
+        barraL.fillAmount = vida / vidaMax;
+
         if (vida <= 0)
         {
             Destroy(this.gameObject);
