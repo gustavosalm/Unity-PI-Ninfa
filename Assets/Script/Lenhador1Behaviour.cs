@@ -41,11 +41,10 @@ public class Lenhador1Behaviour : MonoBehaviour
         {
             transform.Translate(Vector3.left * speed * Time.deltaTime);
         }
-
         barraL.fillAmount = vida / vidaMax;
-
         if (vida <= 0)
         {
+            SpawnControl.dinheiro += 5;
             Destroy(this.gameObject);
         }
     }
@@ -54,11 +53,14 @@ public class Lenhador1Behaviour : MonoBehaviour
         if(collision.tag == "planta" || collision.tag == "arvore")
         {
             espera.Add(collision.gameObject);
-            InvokeRepeating("Atacar", 0, 0.5f);
+            if(espera.Count == 1)
+            {
+                InvokeRepeating("Atacar", 0, 0.5f);
+            }            
             //nome = collision.name;
             andar = false;
             attacking = true;
-        }        
+        }
         //if (collision.tag == "arvore")
         //{
             //tree.GetComponent<arvoreBehaviour>().TomarDano(dano);
@@ -72,7 +74,6 @@ public class Lenhador1Behaviour : MonoBehaviour
     }
     void Atacar()
     {
-
         print(dano);
         if(espera.Count > 0)
         {

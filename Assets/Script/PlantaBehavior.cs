@@ -12,7 +12,6 @@ public class PlantaBehavior : MonoBehaviour
     private string nome;
     private bool attacking;
     private GameObject lenhador;
-
     public Image barraP;
     public float vidaMax;
 
@@ -23,7 +22,6 @@ public class PlantaBehavior : MonoBehaviour
         Image barraP = gameObject.GetComponent(typeof(Image)) as Image;
         andar = true;
         espera = new List<GameObject>();
-        InvokeRepeating("Atacar", 0, 0.5f);
         //lenhador = GameObject.FindWithTag("lenhador");
     }
 
@@ -37,7 +35,7 @@ public class PlantaBehavior : MonoBehaviour
         if (espera.Count == 0 && attacking)
         {
             print("matou");
-            //CancelInvoke("Atacar");
+            CancelInvoke("Atacar");
             andar = true;
             attacking = false;
         }
@@ -45,46 +43,37 @@ public class PlantaBehavior : MonoBehaviour
         {
             transform.Translate(Vector3.right * speed * Time.deltaTime);
         }
-
         barraP.fillAmount = vida / vidaMax;
-
         if (vida <= 0)
         {
             Destroy(this.gameObject);
         }
-
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.tag != "planta")
+        if(collision.tag != "planta" && collision.tag != "arvore")
         {
-            nome = collision.name;
             //lenhador = collision.gameObject;
             espera.Add(collision.gameObject);
+            if (espera.Count == 1)
+            {
+                InvokeRepeating("Atacar", 0, 0.5f);
+            }
             andar = false;
             attacking = true;
-        }
-        
+        }        
     }
     void Atacar()
     {
         print(dano);
         if(espera.Count > 0)
         {
-            //if(espera[0] == null)
-            //{
-            //    espera.RemoveAt(0);
-            //}
-            //else
-            //{
-                espera[0].GetComponent<Lenhador1Behaviour>().TomarDanoL(dano);
-            //}
+            espera[0].GetComponent<Lenhador1Behaviour>().TomarDanoL(dano);
         }
         else
         {
-            andar = true;
-        }
-              
+            CancelInvoke("Atacar");
+        }              
     }
     public void TomarDanoP(float dano)
     {

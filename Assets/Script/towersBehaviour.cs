@@ -9,8 +9,8 @@ public class towersBehaviour : MonoBehaviour
     {
         NONE = 0,
         CACTO = 5,
-        CARNIVORA = 15,
-        DEFESA = 25
+        CARNIVORA = 7,
+        DEFESA = 15
     }
     public Def cards;
     public static Def selecionado;
@@ -22,7 +22,7 @@ public class towersBehaviour : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        this.GetComponent<Button>().interactable = ((int)cards > SpawnControl.dinheiro) ? false : true;
     }
     public void SelecionarPlanta(Button planta)
     {
