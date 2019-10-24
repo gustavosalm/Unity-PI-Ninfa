@@ -15,6 +15,7 @@ public class SpawnControl : MonoBehaviour
     public Text moedas;
     public static int dinheiro;
     private GraphicRaycaster gr;
+    public Sprite[] lenhadores;
     void Start()
     {
         gr = this.GetComponent<GraphicRaycaster>();
@@ -59,9 +60,11 @@ public class SpawnControl : MonoBehaviour
         {
             moedas.text = dinheiro.ToString();
         }
-    }    void SpawnEnemy()
+    }
+    void SpawnEnemy()
     {
         pos = new Vector2(9.74f, UnityEngine.Random.Range(-2.16f, 2.57f));
-        Instantiate(enemy1, pos, Quaternion.identity);
+        GameObject lnh = Instantiate(enemy1, pos, Quaternion.identity);
+        lnh.GetComponent<SpriteRenderer>().sprite = lenhadores[UnityEngine.Random.Range(0,3)];
     }
 }
