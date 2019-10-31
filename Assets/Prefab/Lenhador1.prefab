@@ -71,7 +71,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 5799794804847070556, guid: 1ece5d6ca04304c44922f62590bb8bf1,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -99,6 +99,7 @@ MonoBehaviour:
   speed: 3
   vida: 10
   dano: 3
+  dire: {x: -1, y: 0}
   barraL: {fileID: 1356531944108223417}
   vidaMax: 10
 --- !u!70 &1957724412824423994

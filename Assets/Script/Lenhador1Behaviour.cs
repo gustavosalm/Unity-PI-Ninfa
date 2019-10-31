@@ -13,6 +13,7 @@ public class Lenhador1Behaviour : MonoBehaviour
     private bool attacking;
     private GameObject tree;
     private List<GameObject> espera = new List<GameObject>();
+    public Vector2 dire = Vector2.left;
 
     public Image barraL;
     public float vidaMax;
@@ -39,7 +40,7 @@ public class Lenhador1Behaviour : MonoBehaviour
         }
         if (andar)
         {
-            transform.Translate(Vector3.left * speed * Time.deltaTime);
+            transform.Translate(dire * speed * Time.deltaTime);
         }
         barraL.fillAmount = vida / vidaMax;
         if (vida <= 0)
@@ -61,13 +62,18 @@ public class Lenhador1Behaviour : MonoBehaviour
             andar = false;
             attacking = true;
         }
+        else if (collision.gameObject.tag == "seta")
+        {
+            print(1);
+            dire = collision.GetComponent<Direcao>().direction;
+        }
         //if (collision.tag == "arvore")
         //{
-            //tree.GetComponent<arvoreBehaviour>().TomarDano(dano);
+        //tree.GetComponent<arvoreBehaviour>().TomarDano(dano);
         //}        
     }
     private void OnTriggerExit2D(Collider2D collision)
-    {
+    {        
         //print("matou");
         //CancelInvoke("Atacar");
         //andar = true;

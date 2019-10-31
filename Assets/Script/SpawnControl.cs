@@ -36,7 +36,7 @@ public class SpawnControl : MonoBehaviour
         if(towersBehaviour.selecionado != towersBehaviour.Def.NONE)
         {
             RaycastHit2D raycasthit2D = Physics2D.Raycast(Camera.main.ScreenToWorldPoint(Input.mousePosition), Vector2.zero, Mathf.Infinity);
-            if (((raycasthit2D && raycasthit2D.collider.gameObject.tag != "NoSpawn") || !raycasthit2D) && Input.GetButtonDown("Fire1"))
+            if (((raycasthit2D && (raycasthit2D.collider.gameObject.tag != "NoSpawn" && raycasthit2D.collider.gameObject.tag != "arvore")) || !raycasthit2D) && Input.GetButtonDown("Fire1"))
             {
                 pos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
                 Instantiate(dicio[towersBehaviour.selecionado], pos, Quaternion.identity);
@@ -63,7 +63,7 @@ public class SpawnControl : MonoBehaviour
     }
     void SpawnEnemy()
     {
-        pos = new Vector2(9.74f, UnityEngine.Random.Range(-2.16f, 2.57f));
+        pos = /*new Vector2(9.74f, UnityEngine.Random.Range(-2.16f, 2.57f));*/ new Vector2(10.12f, -1.700127f);
         GameObject lnh = Instantiate(enemy1, pos, Quaternion.identity);
         lnh.GetComponent<SpriteRenderer>().sprite = lenhadores[UnityEngine.Random.Range(0,3)];
     }

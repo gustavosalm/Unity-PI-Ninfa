@@ -6,6 +6,7 @@ TagManager:
   tags:
   - arvore
   - planta
+  - seta
   layers:
   - Default
   - TransparentFX

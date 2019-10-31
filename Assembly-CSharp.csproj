@@ -63,9 +63,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Script\arvoreBehaviour.cs" />
+    <Compile Include="Assets\Script\Direcao.cs" />
     <Compile Include="Assets\Script\easterEgg.cs" />
     <Compile Include="Assets\Script\GraphicRayCanvas.cs" />
     <Compile Include="Assets\Script\Lenhador1Behaviour.cs" />
+    <Compile Include="Assets\Script\MenuController.cs" />
     <Compile Include="Assets\Script\PlantaBehavior.cs" />
     <Compile Include="Assets\Script\SpawnControl.cs" />
     <Compile Include="Assets\Script\towersBehaviour.cs" />
