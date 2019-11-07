@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 2726790700806745277}
   - component: {fileID: 774956311216140306}
   - component: {fileID: 372966127544495541}
-  - component: {fileID: -1511567208594343994}
+  - component: {fileID: 5423821618547545161}
   m_Layer: 0
   m_Name: Cacto
   m_TagString: planta
@@ -72,7 +72,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 696c680b77586944f98f4dc915afce2e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -123,8 +123,8 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!70 &-1511567208594343994
-CapsuleCollider2D:
+--- !u!58 &5423821618547545161
+CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -136,9 +136,9 @@ CapsuleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.94350314, y: -0.091455296}
-  m_Size: {x: 6.647158, y: 5.400232}
-  m_Direction: 1
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 9.1218
 --- !u!1 &6468157273981099383
 GameObject:
   m_ObjectHideFlags: 0
@@ -157,7 +157,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &4806593089035729389
 RectTransform:
   m_ObjectHideFlags: 0

@@ -39,10 +39,10 @@ public class PlantaBehavior : MonoBehaviour
             andar = true;
             attacking = false;
         }
-        if (andar)
-        {
-            transform.Translate(Vector3.right * speed * Time.deltaTime);
-        }
+        //if (andar)
+        //{
+        //    transform.Translate(Vector3.right * speed * Time.deltaTime);
+        //}
         barraP.fillAmount = vida / vidaMax;
         if (vida <= 0)
         {
@@ -51,17 +51,25 @@ public class PlantaBehavior : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.tag != "planta" && collision.tag != "arvore")
+        if(collision.tag != "planta" && collision.tag != "arvore" && collision.tag != "placeable" && collision.tag != "seta" && collision.tag != "defesa")
         {
+            print(collision.tag);
             //lenhador = collision.gameObject;
             espera.Add(collision.gameObject);
-            if (espera.Count == 1)
+            if (espera.Count == 1 && !attacking)
             {
-                InvokeRepeating("Atacar", 0, 0.5f);
+                InvokeRepeating("Atacar", 0, 0.3f);
             }
             andar = false;
             attacking = true;
         }        
+    }
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if(collision.gameObject == espera[0])
+        {
+            espera.Remove(collision.gameObject);
+        }
     }
     void Atacar()
     {
@@ -77,6 +85,6 @@ public class PlantaBehavior : MonoBehaviour
     }
     public void TomarDanoP(float dano)
     {
-        vida -= dano;        
+        vida -= dano;
     }
 }

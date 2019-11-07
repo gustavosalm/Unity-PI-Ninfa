@@ -28,8 +28,8 @@ public class easterEgg : MonoBehaviour
                 //a
                 done = true;
                 tree.GetComponent<SpriteRenderer>().sprite = ale;
-                tree.transform.localScale += new Vector3(0.7846f, 0.7846f);
-                tree.GetComponent<CapsuleCollider2D>().size = new Vector2(5.56f, 7.048337f); 
+                tree.transform.localScale = new Vector3(0.7045772f, 0.7045772f);
+                tree.GetComponent<CapsuleCollider2D>().size = new Vector2(4.754549f, 6.781902f); 
             }
             i++;
         }

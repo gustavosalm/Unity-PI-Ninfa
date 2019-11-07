@@ -51,8 +51,9 @@ public class Lenhador1Behaviour : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {               
-        if(collision.tag == "planta" || collision.tag == "arvore")
+        if( collision.tag == "defesa" || collision.tag == "arvore")
         {
+            print(collision.tag);
             espera.Add(collision.gameObject);
             if(espera.Count == 1)
             {
@@ -64,7 +65,6 @@ public class Lenhador1Behaviour : MonoBehaviour
         }
         else if (collision.gameObject.tag == "seta")
         {
-            print(1);
             dire = collision.GetComponent<Direcao>().direction;
         }
         //if (collision.tag == "arvore")
@@ -74,6 +74,7 @@ public class Lenhador1Behaviour : MonoBehaviour
     }
     private void OnTriggerExit2D(Collider2D collision)
     {        
+
         //print("matou");
         //CancelInvoke("Atacar");
         //andar = true;
@@ -85,7 +86,7 @@ public class Lenhador1Behaviour : MonoBehaviour
         {
             switch(espera[0].tag)
             {
-                case "planta":
+                case "defesa":
                     espera[0].GetComponent<PlantaBehavior>().TomarDanoP(dano);
                     break;
                 case "arvore":

@@ -7,6 +7,8 @@ TagManager:
   - arvore
   - planta
   - seta
+  - placeable
+  - defesa
   layers:
   - Default
   - TransparentFX
