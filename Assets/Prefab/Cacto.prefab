@@ -98,7 +98,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 3
   vida: 20
-  dano: 5
+  dano: 4
   barraP: {fileID: 2749262916232389427}
   vidaMax: 20
   espera: []

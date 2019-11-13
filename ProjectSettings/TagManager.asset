@@ -9,6 +9,7 @@ TagManager:
   - seta
   - placeable
   - defesa
+  - New tag
   layers:
   - Default
   - TransparentFX

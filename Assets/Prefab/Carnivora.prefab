@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 1644885469214272558}
   - component: {fileID: -424641828936118694}
   - component: {fileID: 4356735376433675694}
-  - component: {fileID: 4710063588740725103}
+  - component: {fileID: 484721459012978036}
   m_Layer: 0
   m_Name: Carnivora
   m_TagString: planta
@@ -98,7 +98,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 3
   vida: 20
-  dano: 5
+  dano: 7
   barraP: {fileID: 4031756242576458470}
   vidaMax: 20
   espera: []
@@ -123,8 +123,8 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!70 &4710063588740725103
-CapsuleCollider2D:
+--- !u!58 &484721459012978036
+CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -136,9 +136,9 @@ CapsuleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 1.0285038, y: -0.00000012260719}
-  m_Size: {x: 6.8570194, y: 4.8000083}
-  m_Direction: 1
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 7.55
 --- !u!1 &5859695019773212122
 GameObject:
   m_ObjectHideFlags: 0

@@ -37,7 +37,7 @@ public class SpawnControl : MonoBehaviour
         ContarMoedas();
         if(towersBehaviour.selecionado != towersBehaviour.Def.NONE)
         {
-#if UNITY_EDITOR
+//#if UNITY_EDITOR
             RaycastHit2D raycasthit2D = Physics2D.Raycast(Camera.main.ScreenToWorldPoint(Input.mousePosition), Vector2.zero, Mathf.Infinity);
             if(towersBehaviour.selecionado == towersBehaviour.Def.DEFESA)
             {
@@ -57,30 +57,30 @@ public class SpawnControl : MonoBehaviour
                 dinheiro -= (int)towersBehaviour.selecionado;
                 towersBehaviour.selecionado = towersBehaviour.Def.NONE;
             }
-#elif UNITY_ANDROID
-            if(toc.tapCount > 0)
-            {
-                toc = Input.GetTouch(0);
-                RaycastHit2D raycast = Physics2D.Raycast(toc.position, Vector2.zero, Mathf.Infinity);
-                if (towersBehaviour.selecionado == towersBehaviour.Def.DEFESA)
-                {
-                    if ((raycasthit2D && (raycasthit2D.collider.gameObject.tag != "NoSpawn" && raycasthit2D.collider.gameObject.tag != "arvore")) || !raycasthit2D)
-                    {
-                        pos = toc.position;
-                        Instantiate(dicio[towersBehaviour.selecionado], pos, Quaternion.identity);
-                        dinheiro -= (int)towersBehaviour.selecionado;
-                        towersBehaviour.selecionado = towersBehaviour.Def.NONE;
-                    }
-                }
-                if(raycasthit2D && ((raycasthit2D.collider.gameObject.tag != "NoSpawn" && raycasthit2D.collider.gameObject.tag != "arvore") && raycasthit2D.collider.gameObject.tag == "placeable"))
-                {
-                    pos = toc.position;
-                    Instantiate(dicio[towersBehaviour.selecionado], pos, Quaternion.identity);
-                    dinheiro -= (int)towersBehaviour.selecionado;
-                    towersBehaviour.selecionado = towersBehaviour.Def.NONE;
-                }
-            }
-#endif
+//#elif UNITY_ANDROID
+//            if(toc.tapCount > 0)
+//            {
+//                toc = Input.GetTouch(0);
+//                RaycastHit2D raycasthit2D = Physics2D.Raycast(toc.position, Vector2.zero, Mathf.Infinity);
+//                if (towersBehaviour.selecionado == towersBehaviour.Def.DEFESA)
+//                {
+//                    if ((raycasthit2D && (raycasthit2D.collider.gameObject.tag != "NoSpawn" && raycasthit2D.collider.gameObject.tag != "arvore")) || !raycasthit2D)
+//                    {
+//                        pos = toc.position;
+//                        Instantiate(dicio[towersBehaviour.selecionado], pos, Quaternion.identity);
+//                        dinheiro -= (int)towersBehaviour.selecionado;
+//                        towersBehaviour.selecionado = towersBehaviour.Def.NONE;
+//                    }
+//                }
+//                if(raycasthit2D && ((raycasthit2D.collider.gameObject.tag != "NoSpawn" && raycasthit2D.collider.gameObject.tag != "arvore") && raycasthit2D.collider.gameObject.tag == "placeable"))
+//                {
+//                    pos = toc.position;
+//                    Instantiate(dicio[towersBehaviour.selecionado], pos, Quaternion.identity);
+//                    dinheiro -= (int)towersBehaviour.selecionado;
+//                    towersBehaviour.selecionado = towersBehaviour.Def.NONE;
+//                }
+//            }
+//#endif
         }
     }
     private PointerEventData PointerEventData(object p)

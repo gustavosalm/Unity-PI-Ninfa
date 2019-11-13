@@ -1,0 +1,20 @@
+                                           Instalacão do Jogo
+
+1 -  Descompacte o arquivo Jequitiba.zip;
+2 - Clique no arquivo Jequitibá.apk
+3 - Divirta-se
+
+
+
+                                            Controles (Mobile)
+
+Movimentação: - Conforme a quantidade de moedas, selecione um item da barra inferior e o arraste para o local desejado da tela;
+
+Habilidades:   - Vinhas: Impede a passagem do lenhador por um determinado                        tempo
+                     - Flor Botão: Ataca os lenhadores de longe
+
+                     - Planta Carnívora: Ataca os lenhadores de perto    
+
+
+
+
