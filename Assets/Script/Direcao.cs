@@ -7,6 +7,7 @@ public class Direcao : MonoBehaviour
     public enum Direc{RIGHT, LEFT, UP, DOWN};
     public Direc seta;
     public Vector2 direction;
+    //public SpriteRenderer lenhador;
 
     // Start is called before the first frame update
     void Start()
@@ -14,6 +15,8 @@ public class Direcao : MonoBehaviour
         switch (seta)
         {
             case Direc.RIGHT:
+                //lenhador = GetComponent<SpriteRenderer>();
+                //lenhador.flipX = true;
                 direction = Vector2.right;
                 break;
             case Direc.LEFT:

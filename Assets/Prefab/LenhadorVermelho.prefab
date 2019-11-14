@@ -27,7 +27,7 @@ RectTransform:
   m_GameObject: {fileID: 6643213249468902582}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.7, y: 0.2, z: 1}
+  m_LocalScale: {x: 0.522893, y: 0.14939801, z: 0.74699}
   m_Children: []
   m_Father: {fileID: 7222812767454103633}
   m_RootOrder: 0
@@ -103,7 +103,7 @@ RectTransform:
   m_GameObject: {fileID: 8709902647056437520}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 21.946022}
-  m_LocalScale: {x: 0.11083199, y: 0.09068073, z: 0.09068073}
+  m_LocalScale: {x: 0.040100656, y: 0.032809626, z: 0.032809626}
   m_Children:
   - {fileID: 4011051687467816766}
   m_Father: {fileID: 6210285087844014037}
@@ -111,7 +111,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0.8, y: 5.2}
+  m_AnchoredPosition: {x: 0.2, y: 1.96}
   m_SizeDelta: {x: 224.3, y: 79.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!223 &7922559987778217977
@@ -186,6 +186,7 @@ GameObject:
   - component: {fileID: 6657675448486846784}
   - component: {fileID: 3434924099007183476}
   - component: {fileID: 8546511486564934185}
+  - component: {fileID: 4792367667161332488}
   m_Layer: 0
   m_Name: LenhadorVermelho
   m_TagString: Untagged
@@ -201,8 +202,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9053922154061567040}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 10.12, y: -1.7001271, z: -2.4140625}
-  m_LocalScale: {x: 0.1507584, y: 0.157757, z: 0.157757}
+  m_LocalPosition: {x: 10.3861, y: -2.1389, z: -2.4140625}
+  m_LocalScale: {x: 0.48646295, y: 0.50904584, z: 0.50904584}
   m_Children:
   - {fileID: 7222812767454103633}
   m_Father: {fileID: 0}
@@ -246,7 +247,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 7101326167562876949, guid: 2b2ea591feeba324bb586dea537b63ce,
+  m_Sprite: {fileID: 7026101673764664517, guid: a60e26ce4ad80e0479b7138ca077c837,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -289,6 +290,25 @@ CapsuleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.09258689, y: -1.5851015}
-  m_Size: {x: 7.3249626, y: 5.881981}
+  m_Offset: {x: -0.04641014, y: -0.7034165}
+  m_Size: {x: 1.6165643, y: 1.2562222}
   m_Direction: 1
+--- !u!95 &4792367667161332488
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9053922154061567040}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 28936f882a5622546b9c7a8987e49398, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

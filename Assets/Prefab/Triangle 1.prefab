@@ -97,6 +97,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   seta: 2
   direction: {x: 0, y: 0}
+  lenhador: {fileID: 6657675448486846784, guid: 0696ada108908fc4084cce28818a43d7,
+    type: 3}
 --- !u!50 &9201738629979654434
 Rigidbody2D:
   serializedVersion: 4
