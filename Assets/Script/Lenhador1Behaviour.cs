@@ -15,6 +15,7 @@ public class Lenhador1Behaviour : MonoBehaviour
     private List<GameObject> espera = new List<GameObject>();
     public Vector2 dire = Vector2.left;
 
+    private Animator an;
     public Image barraL;
     public float vidaMax;
     void Start()
@@ -22,6 +23,7 @@ public class Lenhador1Behaviour : MonoBehaviour
         Image barraP = gameObject.GetComponent(typeof(Image)) as Image;
         andar = true;
         tree = GameObject.FindWithTag("arvore");
+        an = GetComponent<Animator>();
     }
 
     void Update()
@@ -65,7 +67,12 @@ public class Lenhador1Behaviour : MonoBehaviour
         }
         else if (collision.gameObject.tag == "seta")
         {
-            dire = collision.GetComponent<Direcao>().direction;
+            Direcao dir = collision.GetComponent<Direcao>();
+            dire = dir.direction;
+            an.SetBool("direita", dir.anim == "direita");
+            an.SetBool("esquerda", dir.anim == "esquerda");
+            an.SetBool("cima", dir.anim == "cima");
+            an.SetBool("baixo", dir.anim == "baixo");
         }
         //if (collision.tag == "arvore")
         //{
