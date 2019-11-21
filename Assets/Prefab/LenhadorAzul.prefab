@@ -197,12 +197,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 3
-  vida: 30
+  vida: 50
   dano: 10
   ganho: 5
   dire: {x: -1, y: 0}
   barraL: {fileID: 6203720008380573140}
-  vidaMax: 30
+  vidaMax: 50
 --- !u!70 &6908643994772242519
 CapsuleCollider2D:
   m_ObjectHideFlags: 0

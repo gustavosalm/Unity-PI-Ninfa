@@ -10,7 +10,6 @@ public class Lenhador1Behaviour : MonoBehaviour
     public float dano;
     private bool andar;
     public int ganho;
-    //private string nome;
     private bool attacking;
     private GameObject tree;
     private List<GameObject> espera = new List<GameObject>();
@@ -33,7 +32,6 @@ public class Lenhador1Behaviour : MonoBehaviour
         {
             espera.RemoveAt(0);
         }
-        //print(nome);
         if (espera.Count == 0 && attacking)
         {
             print("matou");
@@ -62,7 +60,6 @@ public class Lenhador1Behaviour : MonoBehaviour
             {
                 InvokeRepeating("Atacar", 0, 0.5f);
             }            
-            //nome = collision.name;
             andar = false;
             attacking = true;
         }
@@ -75,17 +72,6 @@ public class Lenhador1Behaviour : MonoBehaviour
             an.SetBool("cima", dir.anim == "cima");
             an.SetBool("baixo", dir.anim == "baixo");
         }
-        //if (collision.tag == "arvore")
-        //{
-        //tree.GetComponent<arvoreBehaviour>().TomarDano(dano);
-        //}        
-    }
-    private void OnTriggerExit2D(Collider2D collision)
-    {        
-
-        //print("matou");
-        //CancelInvoke("Atacar");
-        //andar = true;
     }
     void Atacar()
     {
@@ -106,7 +92,6 @@ public class Lenhador1Behaviour : MonoBehaviour
         {
             StopCoroutine("Atacar");
         }
-        //tree.GetComponent<arvoreBehaviour>().TomarDano(dano);
     }
     public void TomarDanoL(float dano)
     {

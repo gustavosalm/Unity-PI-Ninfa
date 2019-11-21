@@ -9,7 +9,7 @@ public class towersBehaviour : MonoBehaviour
     {
         NONE = 0,
         CACTO = 5,
-        CARNIVORA = 7,
+        CARNIVORA = 11,
         DEFESA = 15
     }
     public Def cards;

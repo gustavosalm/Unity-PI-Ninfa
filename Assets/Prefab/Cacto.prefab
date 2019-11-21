@@ -98,9 +98,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d29f6400a786f524c88422ff6418f420, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 3
+  speed: 2
   vida: 20
-  dano: 4
+  dano: 3
   barraP: {fileID: 2749262916232389427}
   vidaMax: 20
   espera: []

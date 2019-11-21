@@ -15,6 +15,7 @@ public class PlantaBehavior : MonoBehaviour
     public float vidaMax;
     private Animator anim;
     private SpriteRenderer sr;
+    public GameObject lugarzin;
 
     [SerializeField] private List<GameObject> espera;
     // Start is called before the first frame update
@@ -46,9 +47,9 @@ public class PlantaBehavior : MonoBehaviour
         //{
         //    transform.Translate(Vector3.right * speed * Time.deltaTime);
         //}
-        // barraP.fillAmount = vida / vidaMax;
-        // if (vida <= 0)
-        //     Destroy(this.gameObject);
+        barraP.fillAmount = vida / vidaMax;
+        if (vida <= 0)
+            Destroy(this.gameObject);
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -59,7 +60,7 @@ public class PlantaBehavior : MonoBehaviour
             espera.Add(collision.gameObject);
             if (espera.Count == 1 && !attacking)
             {
-                InvokeRepeating("Atacar", 0.2f, 0.3f);
+                InvokeRepeating("Atacar", 0.2f, 0.6f);
                 attacking = true;
                 anim.SetBool("atack", attacking);
             }            
@@ -67,7 +68,7 @@ public class PlantaBehavior : MonoBehaviour
     }
     private void OnTriggerExit2D(Collider2D collision)
     {
-        if(collision.gameObject == espera[0])
+        if(espera.Count > 0 && collision.gameObject == espera[0])
         {
             espera.Remove(collision.gameObject);
         }

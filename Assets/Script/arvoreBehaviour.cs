@@ -9,10 +9,11 @@ public class arvoreBehaviour : MonoBehaviour
     public float vida;
     private float vidaMax;
     public Image barraA;
+    public GameObject go;
     // Start is called before the first frame update
     void Start()
     {        
-        vidaMax = 20000;
+        vidaMax = 10;
         vida = vidaMax;
     }
 
@@ -20,6 +21,8 @@ public class arvoreBehaviour : MonoBehaviour
     void Update()
     {
         barraA.fillAmount = vida / vidaMax;
+        if(vida <= 0)
+            go.SetActive(true);
     }
     public void TomarDano(float dano)
     {
