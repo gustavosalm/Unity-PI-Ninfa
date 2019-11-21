@@ -9,6 +9,7 @@ public class Lenhador1Behaviour : MonoBehaviour
     public float vida;
     public float dano;
     private bool andar;
+    public int ganho;
     //private string nome;
     private bool attacking;
     private GameObject tree;
@@ -47,7 +48,7 @@ public class Lenhador1Behaviour : MonoBehaviour
         barraL.fillAmount = vida / vidaMax;
         if (vida <= 0)
         {
-            SpawnControl.dinheiro += 5;
+            SpawnControl.dinheiro += ganho;
             Destroy(this.gameObject);
         }
     }

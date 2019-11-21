@@ -1,0 +1,895 @@
+fileFormatVersion: 2
+guid: 1e62bd0d4827790428112253a0038978
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7915048144195097603
+    second: lenhador azul a andar (1)_0
+  - first:
+      213: -766434594344146687
+    second: lenhador azul a andar (1)_1
+  - first:
+      213: 3641715253614198332
+    second: lenhador azul a andar (1)_2
+  - first:
+      213: 623600147867615459
+    second: lenhador azul a andar (1)_3
+  - first:
+      213: 1036555522642198281
+    second: lenhador azul a andar (1)_4
+  - first:
+      213: 7257065083614721220
+    second: lenhador azul a andar (1)_5
+  - first:
+      213: -807279827842889866
+    second: lenhador azul a andar (1)_6
+  - first:
+      213: 961834567406281670
+    second: lenhador azul a andar (1)_7
+  - first:
+      213: -6605469314547648036
+    second: lenhador azul a andar (1)_8
+  - first:
+      213: -4487155632286616384
+    second: lenhador azul a andar (1)_9
+  - first:
+      213: -1772061494899655927
+    second: lenhador azul a andar (1)_10
+  - first:
+      213: -7796057972848342734
+    second: lenhador azul a andar (1)_11
+  - first:
+      213: 4195095871036095892
+    second: lenhador azul a andar (1)_12
+  - first:
+      213: 2190405574448253623
+    second: lenhador azul a andar (1)_13
+  - first:
+      213: -5259737249773604651
+    second: lenhador azul a andar (1)_14
+  - first:
+      213: -4775289903326705165
+    second: lenhador azul a andar (1)_15
+  - first:
+      213: 1141054423004463975
+    second: lenhador azul a andar (1)_16
+  - first:
+      213: -468075848917356521
+    second: lenhador azul a andar (1)_17
+  - first:
+      213: 8343553269436578707
+    second: lenhador azul a andar (1)_18
+  - first:
+      213: -6846123673725000800
+    second: lenhador azul a andar (1)_19
+  - first:
+      213: -5865357920005802056
+    second: lenhador azul a andar (1)_20
+  - first:
+      213: 6072450793361569418
+    second: lenhador azul a andar (1)_21
+  - first:
+      213: -5996006702699328861
+    second: lenhador azul a andar (1)_22
+  - first:
+      213: -8141869915286286493
+    second: lenhador azul a andar (1)_23
+  - first:
+      213: 6120997597178408425
+    second: lenhador azul a andar (1)_24
+  - first:
+      213: 2878301295037468454
+    second: lenhador azul a andar (1)_25
+  - first:
+      213: -8914680682161350753
+    second: lenhador azul a andar (1)_26
+  - first:
+      213: -8775240644963564179
+    second: lenhador azul a andar (1)_27
+  - first:
+      213: -3181132414330229459
+    second: lenhador azul a andar (1)_28
+  - first:
+      213: -2794907053027087589
+    second: lenhador azul a andar (1)_29
+  - first:
+      213: 9150863258450468899
+    second: lenhador azul a andar (1)_30
+  - first:
+      213: -1308263593911777840
+    second: lenhador azul a andar (1)_31
+  - first:
+      213: -1219395226770369011
+    second: lenhador azul a andar (1)_32
+  - first:
+      213: 3010256989502629929
+    second: lenhador azul a andar (1)_33
+  - first:
+      213: -905637713450421647
+    second: lenhador azul a andar (1)_34
+  - first:
+      213: 7333299076974330640
+    second: lenhador azul a andar (1)_35
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: lenhador azul a andar (1)_0
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 1537
+        width: 199
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f5b12355b1e0e242beb51882e98e4ff
+      internalID: 7915048144195097603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lenhador azul a andar (1)_1
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 1535
+        width: 202
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 844f7549d7efb914789225ad815c170e
+      internalID: -766434594344146687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lenhador azul a andar (1)_2
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 1535
+        width: 197
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a9516ee2b87c5742a0c241facea0779
+      internalID: 3641715253614198332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lenhador azul a andar (1)_3
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 1536
+        width: 194
+        height: 251
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e0e4396c4b223d498c979d1ff4cacb2
+      internalID: 623600147867615459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lenhador azul a andar (1)_4
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 1537
+        width: 192
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1df2b5b881fe40458526df62097006d
+      internalID: 1036555522642198281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lenhador azul a andar (1)_5
+      rect:
+        serializedVersion: 2
+        x: 1264
+        y: 1535
+        width: 195
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f38d61e65bb6afe41a192043701ea22f
+      internalID: 7257065083614721220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lenhador azul a andar (1)_6
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 1535
+        width: 195
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3e5b0254796ac8458011479716d5896
+      internalID: -807279827842889866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lenhador azul a andar (1)_7
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 1536
+        width: 195
+        height: 251
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15a3e2030e9f3a949a381cc288cd8aa4
+      internalID: 961834567406281670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lenhador azul a andar (1)_10
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 1277
+        width: 189
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e1a1cab87511dc45ab5d5a939b71e92
+      internalID: -1772061494899655927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lenhador azul a andar (1)_11
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 1276
+        width: 194
+        height: 251
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 965bdc8e20ff5574d8ed2bd87077fefe
+      internalID: -7796057972848342734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lenhador azul a andar (1)_12
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 1276
+        width: 199
+        height: 251
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ad89cef0808c7f47a6c13662d791f49
+      internalID: 4195095871036095892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lenhador azul a andar (1)_13
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 1278
+        width: 203
+        height: 249
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af59d310dbbfbf548b17dbb057c81a7f
+      internalID: 2190405574448253623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lenhador azul a andar (1)_14
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 1277
+        width: 199
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ca375809402ccc4b8d32836126c3c31
+      internalID: -5259737249773604651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lenhador azul a andar (1)_15
+      rect:
+        serializedVersion: 2
+        x: 1227
+        y: 1271
+        width: 195
+        height: 253
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f893a7b3e2c17644486ed22acc75e469
+      internalID: -4775289903326705165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lenhador azul a andar (1)_16
+      rect:
+        serializedVersion: 2
+        x: 1418
+        y: 1276
+        width: 186
+        height: 251
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4acb45b659bcfe43991ae7a2a7f5ff1
+      internalID: 1141054423004463975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lenhador azul a andar (1)_17
+      rect:
+        serializedVersion: 2
+        x: 1611
+        y: 1278
+        width: 178
+        height: 249
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51a4aa6c28695ef4fbd38efc87fbeabb
+      internalID: -468075848917356521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lenhador azul a andar (1)_20
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1020
+        width: 169
+        height: 248
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6485ab11248a6eb489b0d97dee9ba638
+      internalID: -5865357920005802056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lenhador azul a andar (1)_21
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 1020
+        width: 215
+        height: 248
+      alignment: 9
+      pivot: {x: 0.39302325, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dba3d0e0f2800bc4681230739bbc12ba
+      internalID: 6072450793361569418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lenhador azul a andar (1)_22
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 1020
+        width: 211
+        height: 248
+      alignment: 9
+      pivot: {x: 0.40047392, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9502be63554cb94e867f1259ccfb514
+      internalID: -5996006702699328861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lenhador azul a andar (1)_23
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 1020
+        width: 208
+        height: 248
+      alignment: 9
+      pivot: {x: 0.40625, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b329de651cbe0442b1bc174ae5e60c6
+      internalID: -8141869915286286493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lenhador azul a andar (1)_24
+      rect:
+        serializedVersion: 2
+        x: 1218
+        y: 1020
+        width: 211
+        height: 248
+      alignment: 9
+      pivot: {x: 0.40047392, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2d6de017b51fc841b3a77a70cc4cced
+      internalID: 6120997597178408425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lenhador azul a andar (1)_25
+      rect:
+        serializedVersion: 2
+        x: 1463
+        y: 1020
+        width: 168
+        height: 248
+      alignment: 9
+      pivot: {x: 0.5029762, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f28fc785ddd047d43962dabcc96058e5
+      internalID: 2878301295037468454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lenhador azul a andar (1)_26
+      rect:
+        serializedVersion: 2
+        x: 1679
+        y: 1022
+        width: 168
+        height: 248
+      alignment: 9
+      pivot: {x: 0.5029762, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ad4491d007e3154cafc611e06bec5f7
+      internalID: -8914680682161350753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lenhador azul a andar (1)_27
+      rect:
+        serializedVersion: 2
+        x: 1871
+        y: 1020
+        width: 168
+        height: 248
+      alignment: 9
+      pivot: {x: 0.5029762, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca833689214ffcd4baed5a9840484de3
+      internalID: -8775240644963564179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lenhador azul a andar (1)_28
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 748
+        width: 168
+        height: 251
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e88066158948654d9236dd1e46bdf32
+      internalID: -3181132414330229459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lenhador azul a andar (1)_29
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 748
+        width: 217
+        height: 251
+      alignment: 9
+      pivot: {x: 0.59907836, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c242a715cb3ee04185c74b16a2a20a9
+      internalID: -2794907053027087589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lenhador azul a andar (1)_30
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 748
+        width: 213
+        height: 251
+      alignment: 9
+      pivot: {x: 0.59624416, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 452ca43b8458f3541b1f42d9e5329f11
+      internalID: 9150863258450468899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lenhador azul a andar (1)_31
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 748
+        width: 209
+        height: 251
+      alignment: 9
+      pivot: {x: 0.583732, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be4abbf7d161b014ba64df5896ed0a2f
+      internalID: -1308263593911777840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lenhador azul a andar (1)_32
+      rect:
+        serializedVersion: 2
+        x: 1192
+        y: 748
+        width: 214
+        height: 251
+      alignment: 9
+      pivot: {x: 0.59345794, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec167c6da58f0e1448cdae8b2297e259
+      internalID: -1219395226770369011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lenhador azul a andar (1)_33
+      rect:
+        serializedVersion: 2
+        x: 1460
+        y: 748
+        width: 169
+        height: 251
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e833cbb91e9a38049bdc3c547d26a55b
+      internalID: 3010256989502629929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lenhador azul a andar (1)_34
+      rect:
+        serializedVersion: 2
+        x: 1671
+        y: 748
+        width: 169
+        height: 251
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8da356e806cf744f8883fb8fab79be0
+      internalID: -905637713450421647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lenhador azul a andar (1)_35
+      rect:
+        serializedVersion: 2
+        x: 1869
+        y: 748
+        width: 169
+        height: 251
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7732248486634446a5888fcc7253479
+      internalID: 7333299076974330640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

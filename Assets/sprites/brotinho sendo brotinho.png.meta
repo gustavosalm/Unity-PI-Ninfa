@@ -1,0 +1,259 @@
+fileFormatVersion: 2
+guid: 413683f49c8db2e42b37ca93600456f7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3289910784540974420
+    second: brotinho sendo brotinho_0
+  - first:
+      213: -2069027571715613451
+    second: brotinho sendo brotinho_1
+  - first:
+      213: 5409844963844023406
+    second: brotinho sendo brotinho_2
+  - first:
+      213: -2992704153845326703
+    second: brotinho sendo brotinho_3
+  - first:
+      213: -5707307041097665113
+    second: brotinho sendo brotinho_4
+  - first:
+      213: -6434479973154160584
+    second: brotinho sendo brotinho_5
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: brotinho sendo brotinho_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 448
+        width: 491
+        height: 410
+      alignment: 9
+      pivot: {x: 0.51179427, y: 0.22457707}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fde9a34fe2549a488e63c6dfb467aea
+      internalID: 3289910784540974420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brotinho sendo brotinho_1
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 448
+        width: 506
+        height: 410
+      alignment: 9
+      pivot: {x: 0.4971392, y: 0.22810818}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cb164c59f5b4124db414f021dec5ecc
+      internalID: -2069027571715613451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brotinho sendo brotinho_2
+      rect:
+        serializedVersion: 2
+        x: 1261
+        y: 448
+        width: 498
+        height: 410
+      alignment: 9
+      pivot: {x: 0.5000005, y: 0.22810818}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc2bb272f9652614fb5916068b3a5958
+      internalID: 5409844963844023406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brotinho sendo brotinho_3
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 0
+        width: 431
+        height: 410
+      alignment: 9
+      pivot: {x: 0.50000006, y: 0.2210459}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b02b200437fe4b94f8744e7b7e8946aa
+      internalID: -2992704153845326703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brotinho sendo brotinho_4
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 0
+        width: 481
+        height: 410
+      alignment: 9
+      pivot: {x: 0.48796073, y: 0.22457696}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a24b4552fe0d2bb43b90c2b506d82db5
+      internalID: -5707307041097665113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brotinho sendo brotinho_5
+      rect:
+        serializedVersion: 2
+        x: 1247
+        y: 0
+        width: 441
+        height: 410
+      alignment: 9
+      pivot: {x: 0.486869, y: 0.2210459}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b35e76fb4006a2e49af33c3e8a729bdc
+      internalID: -6434479973154160584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

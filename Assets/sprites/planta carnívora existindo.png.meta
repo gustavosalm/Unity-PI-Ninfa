@@ -1,0 +1,547 @@
+fileFormatVersion: 2
+guid: 83d1e26e2f0f34547aba8cc17be53ed6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4901592583620288463
+    second: "planta carn\xEDvora existindo_0"
+  - first:
+      213: -8241883706310110514
+    second: "planta carn\xEDvora existindo_1"
+  - first:
+      213: 7650990600617861353
+    second: "planta carn\xEDvora existindo_2"
+  - first:
+      213: -6800330831891675855
+    second: "planta carn\xEDvora existindo_3"
+  - first:
+      213: 1767093478869611490
+    second: "planta carn\xEDvora existindo_4"
+  - first:
+      213: -2540857827697596026
+    second: "planta carn\xEDvora existindo_5"
+  - first:
+      213: -6242093577716982483
+    second: "planta carn\xEDvora existindo_6"
+  - first:
+      213: -7582425371031447530
+    second: "planta carn\xEDvora existindo_7"
+  - first:
+      213: -2936054602219448231
+    second: "planta carn\xEDvora existindo_8"
+  - first:
+      213: -5902117216531461091
+    second: "planta carn\xEDvora existindo_9"
+  - first:
+      213: 3521687201243741853
+    second: "planta carn\xEDvora existindo_10"
+  - first:
+      213: -5889730783035505055
+    second: "planta carn\xEDvora existindo_11"
+  - first:
+      213: -659533940288277313
+    second: "planta carn\xEDvora existindo_12"
+  - first:
+      213: -978743628772674474
+    second: "planta carn\xEDvora existindo_13"
+  - first:
+      213: 3529251273226807016
+    second: "planta carn\xEDvora existindo_14"
+  - first:
+      213: 4705677404263260485
+    second: "planta carn\xEDvora existindo_15"
+  - first:
+      213: 327054983477385320
+    second: "planta carn\xEDvora existindo_16"
+  - first:
+      213: 3988412218543990417
+    second: "planta carn\xEDvora existindo_17"
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "planta carn\xEDvora existindo_0"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 280
+        width: 158
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e770d95bc98b204c8b3cd8c219ba152
+      internalID: -4901592583620288463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "planta carn\xEDvora existindo_1"
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 280
+        width: 173
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58b5f5c27a46eea488b190c20b6b3dbe
+      internalID: -8241883706310110514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "planta carn\xEDvora existindo_2"
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 280
+        width: 190
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b9ea27aaac567749939385e809967e8
+      internalID: 7650990600617861353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "planta carn\xEDvora existindo_3"
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 280
+        width: 195
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e93bee7a9b7244e479e7b7ec82e317db
+      internalID: -6800330831891675855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "planta carn\xEDvora existindo_4"
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 280
+        width: 219
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b674596539fd0f459ec8892f8d92b69
+      internalID: 1767093478869611490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "planta carn\xEDvora existindo_5"
+      rect:
+        serializedVersion: 2
+        x: 1012
+        y: 280
+        width: 203
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbd81c9002b399a4fb176251c6599547
+      internalID: -2540857827697596026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "planta carn\xEDvora existindo_6"
+      rect:
+        serializedVersion: 2
+        x: 1231
+        y: 280
+        width: 190
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05db083ac0a627c41860f2337f8e9635
+      internalID: -6242093577716982483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "planta carn\xEDvora existindo_7"
+      rect:
+        serializedVersion: 2
+        x: 1437
+        y: 280
+        width: 177
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7e5f1a1d79a6eb4594cdaeedad7e1bc
+      internalID: -7582425371031447530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "planta carn\xEDvora existindo_8"
+      rect:
+        serializedVersion: 2
+        x: 1630
+        y: 280
+        width: 176
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59dc1d6b52b1df44ba01a231977dcdff
+      internalID: -2936054602219448231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "planta carn\xEDvora existindo_9"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 176
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a3827d49fa652f4cbd2fb3dc0c6b7e8
+      internalID: -5902117216531461091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "planta carn\xEDvora existindo_10"
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 177
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 970537aa6948b7245b1e8d166199eb5a
+      internalID: 3521687201243741853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "planta carn\xEDvora existindo_11"
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 0
+        width: 190
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffc769259bfb21f4ca33d30409846dec
+      internalID: -5889730783035505055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "planta carn\xEDvora existindo_12"
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 0
+        width: 203
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db1c249c4e225f24688f9b933e268412
+      internalID: -659533940288277313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "planta carn\xEDvora existindo_13"
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 0
+        width: 219
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f179d22d7ee1bc7478fe01a1cfcd89b0
+      internalID: -978743628772674474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "planta carn\xEDvora existindo_14"
+      rect:
+        serializedVersion: 2
+        x: 1044
+        y: 0
+        width: 195
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d543da1222ad98469e1ac6ff65fe933
+      internalID: 3529251273226807016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "planta carn\xEDvora existindo_15"
+      rect:
+        serializedVersion: 2
+        x: 1254
+        y: 0
+        width: 190
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0afad2d4d8adc3447be69138372e0faf
+      internalID: 4705677404263260485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "planta carn\xEDvora existindo_16"
+      rect:
+        serializedVersion: 2
+        x: 1459
+        y: 0
+        width: 173
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 922a535af5b931d41b3c1a8cbfe835e2
+      internalID: 327054983477385320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "planta carn\xEDvora existindo_17"
+      rect:
+        serializedVersion: 2
+        x: 1648
+        y: 0
+        width: 158
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ceef33cfa50ee54d90ee1c713727013
+      internalID: 3988412218543990417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

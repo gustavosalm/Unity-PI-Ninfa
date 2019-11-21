@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 774956311216140306}
   - component: {fileID: 372966127544495541}
   - component: {fileID: 5423821618547545161}
+  - component: {fileID: 4587942179739615881}
   m_Layer: 0
   m_Name: Cacto
   m_TagString: planta
@@ -29,7 +30,7 @@ Transform:
   m_GameObject: {fileID: 2504825898290611563}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1.605211, y: -1.4677761, z: 0}
-  m_LocalScale: {x: 0.25181, y: 0.25181, z: 0.25181}
+  m_LocalScale: {x: 0.30426204, y: 0.30426204, z: 0.30426204}
   m_Children:
   - {fileID: 4806593089035729389}
   m_Father: {fileID: 0}
@@ -73,7 +74,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 696c680b77586944f98f4dc915afce2e, type: 3}
+  m_Sprite: {fileID: 3289910784540974420, guid: 413683f49c8db2e42b37ca93600456f7,
+    type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -139,6 +141,25 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 9.1218
+--- !u!95 &4587942179739615881
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2504825898290611563}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: a248b9ac204be5541a7f3380bc6d893c, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &6468157273981099383
 GameObject:
   m_ObjectHideFlags: 0

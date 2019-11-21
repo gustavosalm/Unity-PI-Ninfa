@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: -424641828936118694}
   - component: {fileID: 4356735376433675694}
   - component: {fileID: 484721459012978036}
+  - component: {fileID: 6532478852689107226}
   m_Layer: 0
   m_Name: Carnivora
   m_TagString: planta
@@ -29,7 +30,7 @@ Transform:
   m_GameObject: {fileID: 4478339051630320304}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1.0462074, y: -0.6292709, z: 0}
-  m_LocalScale: {x: 0.30065, y: 0.30065, z: 0.30065}
+  m_LocalScale: {x: 0.75135225, y: 0.75135225, z: 0.75135225}
   m_Children:
   - {fileID: 2293006732558339419}
   m_Father: {fileID: 0}
@@ -73,7 +74,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 091e5585ab0e2624a8c33e6c9264263d, type: 3}
+  m_Sprite: {fileID: -4901592583620288463, guid: 83d1e26e2f0f34547aba8cc17be53ed6,
+    type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -138,7 +140,26 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 7.55
+  m_Radius: 3.36
+--- !u!95 &6532478852689107226
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4478339051630320304}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 4bde125d1baa6164c9de9e23d0163d93, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &5859695019773212122
 GameObject:
   m_ObjectHideFlags: 0

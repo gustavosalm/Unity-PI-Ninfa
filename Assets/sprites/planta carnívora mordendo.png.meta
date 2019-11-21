@@ -1,0 +1,358 @@
+fileFormatVersion: 2
+guid: 4d11b4435d9806d4c9d86ddd3abdb82c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 752978406584355553
+    second: "planta carn\xEDvora mordendo_0"
+  - first:
+      213: -2820612090826020445
+    second: "planta carn\xEDvora mordendo_1"
+  - first:
+      213: -1516656857403288596
+    second: "planta carn\xEDvora mordendo_2"
+  - first:
+      213: 7907264698916874534
+    second: "planta carn\xEDvora mordendo_3"
+  - first:
+      213: 1886391309132458551
+    second: "planta carn\xEDvora mordendo_4"
+  - first:
+      213: -1702908983062076756
+    second: "planta carn\xEDvora mordendo_5"
+  - first:
+      213: 8914744645082838752
+    second: "planta carn\xEDvora mordendo_6"
+  - first:
+      213: 411612697094683556
+    second: "planta carn\xEDvora mordendo_7"
+  - first:
+      213: -5022954584988604139
+    second: "planta carn\xEDvora mordendo_8"
+  - first:
+      213: -7633986433946347074
+    second: "planta carn\xEDvora mordendo_9"
+  - first:
+      213: -5159592269678841016
+    second: "planta carn\xEDvora mordendo_10"
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "planta carn\xEDvora mordendo_0"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 499
+        width: 265
+        height: 331
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bad8259040873f4da052152e1db807f
+      internalID: 752978406584355553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "planta carn\xEDvora mordendo_1"
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 499
+        width: 352
+        height: 361
+      alignment: 9
+      pivot: {x: 0.37642047, y: 0.45844877}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03fcdf7cb7e39414cb6a652d66ce544a
+      internalID: -2820612090826020445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "planta carn\xEDvora mordendo_2"
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 499
+        width: 441
+        height: 275
+      alignment: 9
+      pivot: {x: 0.3004535, y: 0.6018182}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4f367166bbc621459e6e9df83b0ef2b
+      internalID: -1516656857403288596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "planta carn\xEDvora mordendo_3"
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 499
+        width: 357
+        height: 310
+      alignment: 9
+      pivot: {x: 0.37114847, y: 0.533871}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bae200df947d6e348b3e2a08c4ebf24a
+      internalID: 7907264698916874534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "planta carn\xEDvora mordendo_4"
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 499
+        width: 294
+        height: 344
+      alignment: 9
+      pivot: {x: 0.4506803, y: 0.48110464}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fd303af16f899d488723f685d613a39
+      internalID: 1886391309132458551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "planta carn\xEDvora mordendo_6"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 294
+        height: 344
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c8c553715bdb4e45aec36e0367cac7a
+      internalID: 8914744645082838752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "planta carn\xEDvora mordendo_7"
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 0
+        width: 357
+        height: 310
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eeecfd39d3daee4386badd9889850e8
+      internalID: 411612697094683556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "planta carn\xEDvora mordendo_8"
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 0
+        width: 442
+        height: 275
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61fd87a77c330cd4a965a0f7b3409066
+      internalID: -5022954584988604139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "planta carn\xEDvora mordendo_9"
+      rect:
+        serializedVersion: 2
+        x: 1183
+        y: 0
+        width: 352
+        height: 361
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c83a3451e90a244b97f92ba75059c73
+      internalID: -7633986433946347074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "planta carn\xEDvora mordendo_10"
+      rect:
+        serializedVersion: 2
+        x: 1565
+        y: 0
+        width: 265
+        height: 331
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4dc08ffe2cd8264e89919e07c78a73a
+      internalID: -5159592269678841016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

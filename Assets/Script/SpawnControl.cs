@@ -10,6 +10,7 @@ public class SpawnControl : MonoBehaviour
     public GameObject enemy1;
     public Vector2 pos;
     public Touch toc;
+    private int spawnados;
 
     public Dictionary<towersBehaviour.Def, GameObject> dicio;
     public GameObject[] spawns = new GameObject[3];
@@ -52,7 +53,7 @@ public class SpawnControl : MonoBehaviour
             if ((raycasthit2D && ((raycasthit2D.collider.gameObject.tag != "NoSpawn" && raycasthit2D.collider.gameObject.tag != "arvore") && raycasthit2D.collider.gameObject.tag == "placeable")) && Input.GetButtonDown("Fire1"))
             {
                 raycasthit2D.collider.gameObject.transform.GetChild(0).GetChild(0).gameObject.SetActive(false);
-                pos = raycasthit2D.collider.gameObject.transform.position;
+                pos = raycasthit2D.collider.gameObject.transform.position - new Vector3(0, (towersBehaviour.selecionado == towersBehaviour.Def.CARNIVORA) ? -0.2f : 0.14f);
                 Instantiate(dicio[towersBehaviour.selecionado], pos, Quaternion.identity);
                 dinheiro -= (int)towersBehaviour.selecionado;
                 towersBehaviour.selecionado = towersBehaviour.Def.NONE;
@@ -101,8 +102,19 @@ public class SpawnControl : MonoBehaviour
     }
     void SpawnEnemy()
     {
-        pos = /*new Vector2(9.74f, UnityEngine.Random.Range(-2.16f, 2.57f));*/ new Vector2(12f, 0.9f);
-        GameObject lnh = Instantiate(lenhadores[UnityEngine.Random.Range(0, 2)], pos, Quaternion.identity);
+        if(spawnados > 10)
+        {
+            pos = new Vector2(12f, 0.9f);
+            GameObject lnh = Instantiate(lenhadores[UnityEngine.Random.Range(0,2)], pos, Quaternion.identity);
+        }
+        else
+        {
+            pos = new Vector2(12f, 0.9f);
+            GameObject lnh = Instantiate(lenhadores[0], pos, Quaternion.identity);
+        }
+        //pos = /*new Vector2(9.74f, UnityEngine.Random.Range(-2.16f, 2.57f));*/ new Vector2(12f, 0.9f);
+        //GameObject lnh = Instantiate(lenhadores[0], pos, Quaternion.identity);
+        spawnados++;
         //lnh.GetComponent<SpriteRenderer>().sprite = lenhadores[UnityEngine.Random.Range(0,3)];
     }
 }
