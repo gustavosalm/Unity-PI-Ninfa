@@ -18,10 +18,42 @@ public class SpawnControl : MonoBehaviour
     public static int dinheiro;
     private GraphicRaycaster gr;
     public GameObject[] lenhadores;
-    private List<GameObject[]> ordas = new List<GameObject[]>();
+    private List<GameObject> ordas = new List<GameObject>();
+    private int i = 0;
+    private int spawnsOrd = 0;
+    private bool spawn = true;
+    private int[] quantOrd = new int[5]{10, 15, 20, 20, 25};
+    public GameObject ordaqct;
+    public GameObject ws;
     void Start()
     {
-        ordas.Add(new GameObject[10]);
+        //orda 1
+        Fill(10, lenhadores[0]);
+
+        //orda 2
+        Fill(4, lenhadores[0]);
+        Fill(6, lenhadores[1]);
+        Fill(2, lenhadores[0]);
+        Fill(3, lenhadores[1]);
+
+        //orda 3
+        Fill(7, lenhadores[0]);
+        Fill(5, lenhadores[1]);
+        Fill(3, lenhadores[0]);
+        Fill(5, lenhadores[1]);
+
+        //orda 4
+        Fill(3, lenhadores[0]);
+        Fill(4, lenhadores[1]);
+        Fill(2, lenhadores[0]);
+        Fill(3, lenhadores[1]);
+        Fill(3, lenhadores[0]);
+        Fill(5, lenhadores[1]);
+
+        //orda 5
+        Fill(3, lenhadores[0]);
+        Fill(22, lenhadores[1]);
+
 
         Screen.sleepTimeout = SleepTimeout.NeverSleep;
         gr = this.GetComponent<GraphicRaycaster>();
@@ -35,9 +67,23 @@ public class SpawnControl : MonoBehaviour
             {towersBehaviour.Def.DEFESA, spawns[2]}
         };        
     }
+    void Fill(int q, GameObject go)
+    {
+        for(int i = 0; i < q; i++)
+        {
+            ordas.Add(go);
+        }
+    }
 
     void Update()
     {
+        if(i == 5)
+        {
+            i = 4;
+            spawn = false;
+            ws.SetActive(true);
+        }
+        ordaqct.GetComponent<Text>().text = (i + 1).ToString() + "/5";
         ContarMoedas();
         if(pa)
         {
@@ -92,23 +138,36 @@ public class SpawnControl : MonoBehaviour
     }
     void SpawnEnemy()
     {
-        if(spawnados > 10)
+        // if(spawnados > 10){
+        //     pos = new Vector2(12f, 0.9f);
+        //     GameObject lnh = Instantiate(lenhadores[UnityEngine.Random.Range(0,2)], pos, Quaternion.identity);
+        // }
+        // else{
+        //     pos = new Vector2(12f, 0.9f);
+        //     GameObject lnh = Instantiate(lenhadores[0], pos, Quaternion.identity);
+        // }
+        if(i < 5 && spawn)
         {
             pos = new Vector2(12f, 0.9f);
-            GameObject lnh = Instantiate(lenhadores[UnityEngine.Random.Range(0,2)], pos, Quaternion.identity);
-        }
-        else
-        {
-            pos = new Vector2(12f, 0.9f);
-            GameObject lnh = Instantiate(lenhadores[0], pos, Quaternion.identity);
-        }
-        //pos = /*new Vector2(9.74f, UnityEngine.Random.Range(-2.16f, 2.57f));*/ new Vector2(12f, 0.9f);
-        //GameObject lnh = Instantiate(lenhadores[0], pos, Quaternion.identity);
-        spawnados++;
-        //lnh.GetComponent<SpriteRenderer>().sprite = lenhadores[UnityEngine.Random.Range(0,3)];
+            GameObject lnh = Instantiate(ordas[spawnados], pos, Quaternion.identity);
+            spawnados++;
+            spawnsOrd++;
+            if(spawnsOrd == quantOrd[i])
+            {
+                spawnsOrd -= quantOrd[i];
+                i++;
+                spawn = false;
+                StartCoroutine("Espera");
+            }
+        }        
     }
     public void TirarPlanta()
     {        
         pa = true;
+    }
+    public IEnumerator Espera()
+    {
+        yield return new WaitForSeconds(3);
+        spawn = true;
     }
 }

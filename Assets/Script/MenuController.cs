@@ -14,6 +14,10 @@ public class MenuController : MonoBehaviour
         Debug.Log("vazou");
         Application.Quit();
     }
+    public void GoToMenu()
+    {
+        SceneManager.LoadScene("MainMenu");
+    }
     public void PauseGame()
     {
         Time.timeScale = 0f;

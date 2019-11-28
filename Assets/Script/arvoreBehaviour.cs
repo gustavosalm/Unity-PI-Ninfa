@@ -13,7 +13,7 @@ public class arvoreBehaviour : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {        
-        vidaMax = 10;
+        vidaMax = 1000;
         vida = vidaMax;
     }
 
